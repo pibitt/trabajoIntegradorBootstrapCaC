@@ -1,0 +1,125 @@
+.logo {
+    width: 100px;
+    margin-left: 50px;
+}
+
+#ba-photo {
+    width: 100%;
+}
+
+header {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-brand {
+    color: grey;
+    font-size: 15px;
+}
+.comprar{
+    color: green;
+}
+
+
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.hero {  
+    color: white;   
+    text-align: right;
+    position: relative;
+}
+
+.hero-img{
+    width: 100%;
+    filter: brightness(50%)
+}
+
+.hero-text{
+    position: absolute;
+    z-index: 1;
+    top:10rem;
+    padding: 5rem;
+    
+}
+
+
+
+.btn {
+    color: white;
+}
+
+.oradores {
+    display: flex;
+    align-items: center;
+}
+
+.oradores-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.card-img-top {
+    max-width: 100%;
+}
+
+.card-group {
+    justify-content: center;
+
+}
+
+h6 {
+    font-size: 0.7em;
+}
+
+.date {
+    margin-top: 50px;
+}
+
+.date img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.date-text{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.form-section {
+    text-align: center;
+}
+
+#underline{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+.form-data{
+    display: inline-block;
+    width: 50%;
+    margin: 0 !important;
+   
+}
+
+.btn-success{
+    background-color: rgb(103, 172, 0); 
+    
+}
+
+.footer{
+    background-color: rgb(62, 63, 62);    
+    
+}  
+
+.footer a{
+    color:white;
+}
+
