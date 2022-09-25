@@ -75,8 +75,8 @@ header {
 
 }
 
-h6 {
-    font-size: 0.7em;
+h5 {
+    font-weight: 400;
 }
 
 .date {
@@ -110,8 +110,11 @@ h6 {
 }
 
 .btn-success{
-    background-color: rgb(103, 172, 0); 
-    
+    background-color: rgb(103, 172, 0);     
+}
+
+.btn-enviar{
+    width: 100%;
 }
 
 .footer{
