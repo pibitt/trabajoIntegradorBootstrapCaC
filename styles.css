@@ -20,36 +20,35 @@ header {
     color: grey;
     font-size: 15px;
 }
-.comprar{
+
+
+
+.comprar {
     color: green;
 }
-
-
 
 .navbar-brand:hover {
     color: white;
 }
 
-.hero {  
-    color: white;   
+.hero {
+    color: white;
     text-align: right;
     position: relative;
+    align-items: right;    
 }
 
-.hero-img{
+.hero-img {
     width: 100%;
     filter: brightness(50%)
 }
 
-.hero-text{
+.hero-text {
     position: absolute;
     z-index: 1;
-    top:10rem;
-    padding: 5rem;
-    
+    top: 20rem;
+    padding: 5rem;    
 }
-
-
 
 .btn {
     color: white;
@@ -75,6 +74,10 @@ header {
 
 }
 
+.text-bg-info {
+    color: white !important;
+}
+
 h5 {
     font-weight: 400;
 }
@@ -84,11 +87,12 @@ h5 {
 }
 
 .date img {
+    height: 100%;
     width: 100%;
     max-width: 100%;
 }
 
-.date-text{
+.date-text {
     background-color: rgb(49, 49, 49);
     color: white;
 }
@@ -97,32 +101,44 @@ h5 {
     text-align: center;
 }
 
-#underline{
+#underline {
     text-decoration-line: underline;
     text-decoration-style: dotted;
 }
 
-.form-data{
+.form-data {
     display: inline-block;
     width: 50%;
     margin: 0 !important;
-   
+
 }
 
-.btn-success{
-    background-color: rgb(103, 172, 0);     
+.btn-success {
+    background-color: rgb(103, 172, 0);
 }
 
-.btn-enviar{
+.btn-enviar {
     width: 100%;
 }
 
-.footer{
-    background-color: rgb(62, 63, 62);    
-    
-}  
+.footer {
+    background-color: rgb(62, 63, 62);
 
-.footer a{
-    color:white;
 }
 
+.footer a {
+    color: white;
+}
+
+.charla {
+    text-align: start;
+    color: grey;
+    font-size: xx-small;
+}
+
+@media (max-width: 1150px) {
+    .hero-text {
+        top: 2rem;
+       
+    }
+}
