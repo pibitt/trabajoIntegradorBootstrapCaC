@@ -1,6 +1,7 @@
 .logo {
     width: 100px;
-    margin-left: 50px;
+    margin-left: 20px;
+
 }
 
 #ba-photo {
@@ -35,18 +36,22 @@ header {
     color: white;
     text-align: right;
     position: relative;
-    align-items: right;    
+    align-items: right;
+    height: 100vh;    
+    
 }
 
 .hero-img {
     width: 100%;
-    filter: brightness(50%)
+    filter: brightness(40%);
+    height: 100vh;    
+    
 }
 
 .hero-text {
     position: absolute;
     z-index: 1;
-    top: 20rem;
+    top: 10rem;
     padding: 5rem;    
 }
 
@@ -142,3 +147,10 @@ h5 {
        
     }
 }
+@media (max-width: 370px){
+    .hero-text{
+        font-size: small;
+        padding: 5rem 1rem;
+    }
+}
+
