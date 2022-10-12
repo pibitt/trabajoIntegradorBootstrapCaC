@@ -51,7 +51,8 @@ header {
 .hero-text {
     position: absolute;
     z-index: 1;
-    top: 10rem;
+    top: 20%;
+    bottom: 20%;
     padding: 5rem;    
 }
 
@@ -141,16 +142,16 @@ h5 {
     font-size: xx-small;
 }
 
-@media (max-width: 1150px) {
+/* @media (max-width: 1150px) {
     .hero-text {
         top: 2rem;
        
     }
-}
-@media (max-width: 370px){
+} */
+@media (max-width: 456px){
     .hero-text{
-        font-size: small;
-        padding: 5rem 1rem;
+        
+        padding: 5rem 2rem;
     }
 }
 
