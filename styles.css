@@ -43,7 +43,7 @@ header {
     content: '';
     position: absolute;
     height: 100vh;  
-    background: url('../trabajoIntegradorBootstrapCaC/images/ba1.jpg'); 
+    background: url('images/ba1.jpg'); 
     background-size: cover;
     filter: brightness(40%);
     z-index: 0;
