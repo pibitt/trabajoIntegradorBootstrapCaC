@@ -27,18 +27,20 @@ header {
 
 #descuentos{
     margin-top: 100px;
-
 }
 
-
-
-
-
 .footer {
-    background-color: rgb(62, 63, 62);
-
+        background-color: rgb(62, 63, 62);
 }
 
 .footer a {
     color: white;
+}
+
+.btn{
+    width: 40%;
+}
+
+#total{
+    margin: 10px;
 }
