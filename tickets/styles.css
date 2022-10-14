@@ -1,0 +1,44 @@
+.logo {
+    width: 100px;
+    margin-left: 20px;
+}
+
+header {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-brand {
+    color: grey;
+    font-size: 15px;
+}
+
+.comprar {
+    color: green;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#descuentos{
+    margin-top: 100px;
+
+}
+
+
+
+
+
+.footer {
+    background-color: rgb(62, 63, 62);
+
+}
+
+.footer a {
+    color: white;
+}
